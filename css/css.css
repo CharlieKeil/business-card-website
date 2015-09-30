@@ -20,6 +20,8 @@ body {
 
 nav {
   float: right;
+  background-color: #000;
+  color: #fff;
 }
 
 nav ul {
@@ -40,20 +42,50 @@ nav li a {
   left:80%;
 }
 
+.hero {
+  max-height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom,
+    url("../img/placehold.jpg") no-repeat center top/cover;
+  padding-top: 1.5625%;
+  clear:both;
+}
+
+.hero-con {
+  padding: 0 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 15%;
+
+  color: #fff;
+  font-size: 1rem;
+  text-align: left;
+}
+
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   margin-bottom: 0;
+  color: #fff;
+
 }
 
 h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   margin-top: 0;
+  color: #fff;
+
 }
 
 h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   text-align: center;
+}
+
+main {
+  position: relative;
 }
