@@ -49,7 +49,7 @@ nav li a {
   background:
     linear-gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom,
     url("../img/placehold.jpg") no-repeat center top/cover;
-  padding-top: 1.5625%;
+  padding-top: 500px;
   clear:both;
 }
 
@@ -63,6 +63,17 @@ nav li a {
   font-size: 1rem;
   text-align: left;
 }
+
+.hero-con a {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  bottom: 10px;
+  background-color: #333;
+  padding: 1em, 0.5em, 1em, 0.5em;
+}
+
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
