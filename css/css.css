@@ -39,7 +39,7 @@ nav ul {
   padding: 0;
 }
 
-nav li{
+nav li {
   list-style-type: none;
   display: inline;
   right: 10px;
@@ -109,12 +109,50 @@ h3 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   text-align: center;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
 }
 
 main {
   position: relative;
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.buttons {
+  text-align: center;
+}
+
+
+.be img {
+  float: left;
+  width: 50px;
+  padding-left: 80px;
+  padding-bottom: 1.5em;
+}
+
+.in img{
+  float: right;
+  width: 50px;
+  padding-right: 80px;
+}
+
+.tum img{
+  float: left;
+  width: 50px;
+  clear: both;
+  padding-left: 80px;
+  padding-bottom: 1.5em;
+}
+
+.twit img{
+  float: right;
+  width: 50px;
+  padding-right: 80px;
 }
 
 footer {
@@ -124,11 +162,12 @@ footer {
   float: left;
   padding-left: 1em;
   width: 100%;
-  background-image: url("../img/businesscard-logo.svg");
-  padding: 1em;
-  background-size: 1.5em auto;
-  background-repeat: no-repeat;
-  background-position: bottom right;
+}
+
+footer a {
+  float: right;
+  width: 20px;
+  padding-right: 30px;
 }
 
 footer p {
