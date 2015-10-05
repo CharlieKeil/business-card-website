@@ -50,6 +50,7 @@ nav li a {
   padding: .5em;
   margin: 0;
   left:80%;
+  color: #fff;
 }
 
 .hero {
@@ -58,7 +59,7 @@ nav li a {
   overflow: hidden;
   background:
     linear-gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom,
-    url("../img/placehold.jpg") no-repeat center top/cover;
+    url("../img/webpic.jpg") no-repeat center top/cover;
   padding-top: 500px;
   clear:both;
 }
