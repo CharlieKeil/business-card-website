@@ -118,16 +118,23 @@ p {
   font-size: 16px;
 }
 
+.work img {
+  margin-left: 0;
+  margin-bottom: .5em;
+}
+
+.me p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 main {
   position: relative;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 .buttons {
   text-align: center;
 }
-
 
 .be img {
   float: left;
