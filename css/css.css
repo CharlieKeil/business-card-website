@@ -23,7 +23,7 @@ nav {
   position: absolute;
   color: #fff;
   padding: 0.5em;
-  background-image: url("../img/businesscard-logo.svg");
+  background-image: url("../img/businesscard-logo.svg") ;
   padding: 1em;
   background-size: 1.5em auto;
   background-repeat: no-repeat;
@@ -202,5 +202,72 @@ footer address {
   font-size: .75em;
   padding-bottom: 0.5em;
   padding-left: 1em;
+
+}
+
+@media only screen and (min-width: 31em) {
+
+  header {
+    background-color: #000;
+  }
+
+  .hero {
+    z-index: 1;
+    max-height: 75vh;
+    position: relative;
+    overflow: hidden;
+    background:
+      linear-gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom,
+      url("../img/webpic.jpg") no-repeat center top/cover;
+    padding-top: 500px;
+    clear:both;
+    width: 60% ;
+    max-width: 350px;
+    max-height: 500px;
+    margin: 0;
+  }
+
+  .hero-con {
+    padding: 0 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+
+    color: #fff;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .hero-con a {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    bottom: 10px;
+    padding: 0.5em 1em;
+    border: 1px solid;
+  }
+
+  .hero-con a:hover {
+    background-color: #fff;
+    color: #333;
+    border: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  .me p {
+    margin-left: 1em;
+    margin-right: 1em;
+    float: right;
+    clear: both;
+    color: #fff;
+    width: 50%;
+    margin-bottom: -50%;
+    z-index: 4;
+  }
 
 }
