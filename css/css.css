@@ -370,6 +370,9 @@ footer address {
     margin-top: -900px;
     max-height: 800px;
     max-width: 1000px;
+  }
+
+  .me p {
     font-size: 20px;
 
   }
