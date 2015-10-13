@@ -302,7 +302,7 @@ footer address {
 }
 
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 50em) {
 
   .me  {
     left: 25%;
