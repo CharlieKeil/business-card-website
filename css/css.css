@@ -324,7 +324,7 @@ footer address {
   }
 
   .work img {
-    width: 45%;
+    width: 23%;
     margin: .5em;
   }
 
@@ -380,11 +380,11 @@ footer address {
     background:
       linear-gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom,
       url("../img/webpic.jpg") no-repeat center top/cover;
-    padding-top: 700px;
+    padding-top: 800px;
     clear:both;
     width: 60% ;
-    max-width:550px;
-    max-height: 700px;
+    max-width:650px;
+    max-height: 800px;
     margin: 0;
     display: inline-block;
   }
