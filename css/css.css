@@ -14,6 +14,10 @@ font-family:'Josefin Sans', sans-serif;
 font-weight: 400;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
 }
@@ -242,6 +246,10 @@ footer address {
 
 @media only screen and (min-width: 31em) {
 
+  html {
+    font-size: 17px;
+  }
+
   header {
     background-color: #000;
   }
@@ -296,6 +304,7 @@ footer address {
 @media only screen and (min-width: 50em) {
 
   .me  {
+    left: 25%;
     float: right;
     text-align: left;
     color: #fff;
@@ -339,6 +348,45 @@ footer address {
   .twit img{
     width: 90px;
     padding-right: 35%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 19px;
+  }
+
+  .me  {
+    left: 25%;
+    float: right;
+    text-align: left;
+    color: #fff;
+    width: 50%;
+    color: #fff;
+    margin: 1em;
+    clear: right;
+    margin-top: -500px;
+    max-height: 400px;
+    max-width: 500px;
+  }
+
+  .hero {
+    z-index: 1;
+    max-height: 75vh;
+    position: relative;
+    overflow: hidden;
+    background:
+      linear-gradient(to top, rgba(0,0,0,0.7), transparent) no-repeat center bottom,
+      url("../img/webpic.jpg") no-repeat center top/cover;
+    padding-top: 700px;
+    clear:both;
+    width: 60% ;
+    max-width:550px;
+    max-height: 700px;
+    margin: 0;
+    display: inline-block;
   }
 
 }
