@@ -225,6 +225,7 @@ footer address {
     max-width: 350px;
     max-height: 500px;
     margin: 0;
+    display: inline-block;
   }
 
   .hero-con {
@@ -259,15 +260,28 @@ footer address {
 
 @media only screen and (min-width: 50em) {
 
-  .me p {
-    margin-left: 1em;
-    margin-right: 1em;
+  .me  {
     float: right;
-    clear: both;
+    text-align: left;
     color: #fff;
     width: 50%;
-    margin-bottom: -50%;
-    z-index: 4;
+    color: #fff;
+    margin: 1em;
+    clear: right;
+    margin-top: -500px;
+    max-height: 400px;
+    max-width: 500px;
+  }
+
+  .work {
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .work img {
+    width: 45%;
+    margin: .5em;
   }
 
 }
