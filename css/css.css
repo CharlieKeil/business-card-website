@@ -367,9 +367,10 @@ footer address {
     color: #fff;
     margin: 1em;
     clear: right;
-    margin-top: -500px;
-    max-height: 400px;
-    max-width: 500px;
+    margin-top: -900px;
+    max-height: 800px;
+    max-width: 1000px;
+
   }
 
   .hero {
