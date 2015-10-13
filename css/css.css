@@ -395,4 +395,28 @@ footer address {
     display: inline-block;
   }
 
+  .be img {
+    width: 120px;
+    padding-left: 35%;
+    padding-bottom: 1.5em;
+  }
+
+  .in img{
+    width: 120px;
+    padding-right: 35%
+  }
+
+  .tum img{
+    width: 120px;
+    padding-left: 35%;
+    padding-bottom: 1.5em;
+  }
+
+  .twit img{
+    width: 120px;
+    padding-right: 35%;
+  }
+
+
+
 }
