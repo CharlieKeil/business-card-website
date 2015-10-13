@@ -194,7 +194,7 @@ footer a {
 }
 
 footer p {
-  font-size: .75em;
+  font-size: 16px;
   padding-bottom: 0.5em;
   margin-bottom: 0;
   padding-left: 1em;
@@ -417,6 +417,9 @@ footer address {
     padding-right: 35%;
   }
 
+  footer p {
+    font-size: 19px;
 
+  }
 
 }
